@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote of The Day</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 16px;
+            backdrop-filter: blur(8px);
+            text-align: center;
+            width: 500px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .quote {
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: white;
+            color: #2575fc;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🌟 Quote of The Day 🌟</h1>
+    <p class="quote">{{ quote }}</p>
+
+    <button class="btn" onclick="refresh()">New Quote</button>
+</div>
+
+<script>
+    function refresh() {
+        location.reload();
+    }
+</script>
+
+</body>
+</html>
