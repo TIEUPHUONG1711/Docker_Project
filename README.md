@@ -4,24 +4,24 @@
 ## Mô tả Ứng dụng Flask đơn giản trả về **Quote of the Day**. Chạy trong Docker, dễ deploy trên bất kỳ máy nào có Docker.
 
 📦 Cách chạy dự án
-1️⃣ Kiểm tra Docker
+1️⃣ Kiểm tra Docker: 
 docker --version
 
-2️⃣ Clone repository
-git clone https://github.com/TIEUPHUONG1711/Docker_Project.git
-cd Docker_Project
+2️⃣ Clone repository: 
+- git clone https://github.com/TIEUPHUONG1711/Docker_Project.git
+- cd Docker_Project
 
-3️⃣ Build Docker image
+3️⃣ Build Docker image:  
 docker build -t quoteapp:latest .
 
-4️⃣ Chạy container
+4️⃣ Chạy container:  
 docker run -d -p 5000:5000 --name quoteapp quoteapp:latest
 
 
 Truy cập ứng dụng tại:
 👉 http://localhost:5000
 
-🔁 Rebuild khi cập nhật code
+🔁 Rebuild khi cập nhật code:  
 
 Nếu bạn thay đổi nội dung project, hãy build lại image:
 
