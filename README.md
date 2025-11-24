@@ -3,7 +3,7 @@
 
 ## Mô tả Ứng dụng Flask đơn giản trả về **Quote of the Day**. Chạy trong Docker, dễ deploy trên bất kỳ máy nào có Docker.
 
-📦 Cách chạy dự án
+📦 Cách chạy dự án: 
 1️⃣ Kiểm tra Docker: 
 - docker --version
 
