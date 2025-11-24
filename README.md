@@ -35,8 +35,7 @@ docker ps
 Dừng container:
 docker stop <container_id>
 
-
-container_id lấy từ cột CONTAINER ID trong docker ps.
+* container_id lấy từ cột CONTAINER ID trong docker ps.
 
 Xóa container:
 docker rm <container_id>
