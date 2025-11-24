@@ -5,11 +5,11 @@
 Ứng dụng Flask đơn giản trả về **Quote of the Day**.  
 Chạy trong Docker, dễ deploy trên bất kỳ máy nào có Docker.
 # Cách chạy:
-- Kiểm tra Docker version:
-docker --version
-- Bước 1: Clone repository
-git clone https://github.com/TIEUPHUONG1711/Docker_Project.git
-cd Docker_Project
+Kiểm tra Docker version: 
+- docker --version
+Bước 1: Clone repository: 
+- git clone https://github.com/TIEUPHUONG1711/Docker_Project.git
+- cd Docker_Project
 
 - Bước 2: Xây dựng Docker image
  docker build -t docker_flask_app .
