@@ -25,8 +25,8 @@ Truy cập ứng dụng tại:
 
 Nếu bạn thay đổi nội dung project, hãy build lại image:
 
-docker build -t docker_flask_app .
-docker run -p 5000:5000 docker_flask_app
+- docker build -t docker_flask_app .
+- docker run -p 5000:5000 docker_flask_app
 
 🛑 Dừng & Xóa container
 Liệt kê container đang chạy:
