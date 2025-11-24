@@ -12,10 +12,10 @@ git clone https://github.com/TIEUPHUONG1711/Docker_Project.git
 cd Docker_Project
 
 3️⃣ Build Docker image
-docker build -t docker_flask_app .
+docker build -t quoteapp:latest .
 
 4️⃣ Chạy container
-docker run -p 5000:5000 docker_flask_app
+docker run -d -p 5000:5000 --name quoteapp quoteapp:latest
 
 
 Truy cập ứng dụng tại:
@@ -25,8 +25,8 @@ Truy cập ứng dụng tại:
 
 Nếu bạn thay đổi nội dung project, hãy build lại image:
 
-- docker build -t docker_flask_app .
-- docker run -p 5000:5000 docker_flask_app
+- docker build -t quoteapp:latest .
+- docker run -d -p 5000:5000 --name quoteapp quoteapp:latest
 
 🛑 Dừng & Xóa container
 Liệt kê container đang chạy:
