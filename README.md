@@ -20,7 +20,7 @@
 
 
 Truy cập ứng dụng tại:
-- http://localhost:5000
+- http://127.0.0.1:5000/web
 
 🔁 Rebuild khi cập nhật code:  
 
@@ -44,10 +44,4 @@ Xóa container:
 Xóa image (tùy chọn):
 - docker rmi docker_flask_app
 
-📁 Cấu trúc dự án
-Docker_Project/
-│
-├── app.py
-├── requirements.txt
-├── Dockerfile
-└── README.md
+
